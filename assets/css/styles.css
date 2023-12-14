@@ -538,6 +538,7 @@ body {
     background: var(--color-border);
     color: #A0A2A7;
     font-weight: 400;
+    pointer-events: none;
 }
 
 .match.live .match-score-group input {
@@ -596,6 +597,7 @@ body {
     border-bottom: 1px solid var(--color-border);
     display: flex;
     padding: 13px 16px;
+    align-items: center;
 }
 
 .cart-title {
@@ -2592,4 +2594,235 @@ textarea.input-text {
 .contact-content .contact-form .form-btn-left {
     margin-top: 35px;
     margin-bottom: 30px;
+}
+
+.match-detail-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.match-detail-content .match {
+    width: 680px;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+    position: initial;
+    overflow: unset;
+}
+
+.match-detail-content .match-content .club .img-opacity {
+    position: absolute;
+    opacity: 0.04;
+    width: 156px;
+    height: 156px;
+}
+
+.match-detail-content .match-content .club.club-left .img-opacity {
+    top: 60px;
+}
+
+.match-detail-content .match-content .club.club-right .img-opacity {
+    top: 60px;
+}
+
+.match-fore-title {
+    text-align: center;
+    padding: 0 16px;
+    margin-top: 40px;
+}
+
+.fore-title {
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.match-fore-title .fore-p {
+    color: var(--color-text-2);
+    font-size: 16px;
+}
+
+.fore-win-lost {
+    display: flex;
+    border-radius: 40px;
+    background: #F3F3F3;
+}
+
+.fore-win-lost span {
+    font-size: 14px;
+    font-weight: 400;
+    height: 36px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.fore-win-lost span:hover {
+    background: #e1e1e1;
+}
+
+.fore-win-lost .equal::before {
+    content: "";
+    background: #E5E3E1;
+    height: 24px;
+    width: 1px;
+    position: absolute;
+    left: 0;
+}
+
+.fore-win-lost .lost::before {
+    content: "";
+    background: #E5E3E1;
+    height: 24px;
+    width: 1px;
+    position: absolute;
+    left: 0;
+}
+
+.match-under {
+    padding: 0 24px 24px;
+}
+
+.match-under .match-fore-title {
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+.match-detail-content .btn {
+    height: 40px;
+    padding: 0 50px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.match-detail-content .match-content .club img {
+    width: 90px;
+    height: 90px;
+}
+
+.match-detail-content .match-content .club p {
+    font-size: 24px;
+}
+
+.match-detail-content .match-score-group input {
+    width: 40px;
+    height: 50px;
+    padding: 0 13px;
+    color: var(--color-text);
+}
+
+.match-detail-content .match-score-group .input-group {
+    height: 90px;
+}
+
+.match-detail-content .match-score-group .input-group svg {
+    width: 19px !important;
+    height: 18px !important;
+}
+
+.card-head.tour {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-head.tour .cart-title {
+    font-size: 18px;
+}
+
+.card-head.tour .calendar {
+    font-weight: 700;
+}
+
+.match-detail .card {
+    border-color: var(--color-yellow);
+    margin-top: 24px;
+}
+
+.has-choose .active {
+    background: #2275FF !important;
+    color: white;
+}
+
+.has-choose .win.active~.equal::before,
+.has-choose .equal.active~.lost::before {
+    content: none;
+}
+
+.has-choose .equal.active::before,
+.has-choose .lost.active::before {
+    content: none;
+}
+
+.st-half {
+    color: var(--color-text-2);
+    margin-top: 14px;
+}
+
+.btn-match-end {
+    background: #FFF4F4 !important;
+    color: #F00;
+    font-weight: 400 !important;
+    padding: 0 36px !important;
+    pointer-events: none;
+}
+
+.percent-result {
+    border-radius: 16px;
+    background: #FFF8F2;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin-top: 26px;
+}
+
+.percent-result .title {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.percent-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.percent-item {
+    width: 20%;
+    max-width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 8px;
+}
+
+.percent-box {
+    border-radius: 4px;
+    background: var(--Yellow, #FFD900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--color-text-2);
+    margin-bottom: 8px;
+}
+
+.percent-box span {
+    display: block;
+    position: absolute;
+    bottom: max(-2px, calc(50% - 10px));
+}
+
+.percent-item .ratio {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
 }

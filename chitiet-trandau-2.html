@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini game</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="home">
+    <section class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="mobi-menu-icon">
+                    <img src="assets/images/menu.png">
+                </div>
+                <div class="head-nav">
+                    <div class="main-menu">
+                        <ul>
+                            <li class="menu-item active">
+                                <a class="menu-link" href="#">
+                                    <span>Trang chủ</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <span>Ngoại Hạng Anh</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                        <path d="M4.4138 6.00007L11.8605 6.00007C11.9929 5.9993 12.1225 6.03798 12.2329 6.11118C12.3432 6.18439 12.4293 6.28879 12.48 6.41109C12.5308 6.53338 12.544 6.66803 12.518 6.79786C12.4919 6.92769 12.4278 7.04683 12.3338 7.14007L8.60713 10.8601C8.48222 10.9843 8.31325 11.0539 8.13713 11.0539C7.961 11.0539 7.79204 10.9843 7.66713 10.8601L3.94046 7.14007C3.84644 7.04683 3.78232 6.92769 3.75628 6.79786C3.73023 6.66803 3.74344 6.53338 3.79422 6.41109C3.84499 6.28879 3.93104 6.18439 4.04139 6.11118C4.15173 6.03798 4.28138 5.9993 4.4138 6.00007Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <span>Ngoại Hạng Anh</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                        <path d="M4.4138 6.00007L11.8605 6.00007C11.9929 5.9993 12.1225 6.03798 12.2329 6.11118C12.3432 6.18439 12.4293 6.28879 12.48 6.41109C12.5308 6.53338 12.544 6.66803 12.518 6.79786C12.4919 6.92769 12.4278 7.04683 12.3338 7.14007L8.60713 10.8601C8.48222 10.9843 8.31325 11.0539 8.13713 11.0539C7.961 11.0539 7.79204 10.9843 7.66713 10.8601L3.94046 7.14007C3.84644 7.04683 3.78232 6.92769 3.75628 6.79786C3.73023 6.66803 3.74344 6.53338 3.79422 6.41109C3.84499 6.28879 3.93104 6.18439 4.04139 6.11118C4.15173 6.03798 4.28138 5.9993 4.4138 6.00007Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <span>Ngoại Hạng Anh</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                        <path d="M4.4138 6.00007L11.8605 6.00007C11.9929 5.9993 12.1225 6.03798 12.2329 6.11118C12.3432 6.18439 12.4293 6.28879 12.48 6.41109C12.5308 6.53338 12.544 6.66803 12.518 6.79786C12.4919 6.92769 12.4278 7.04683 12.3338 7.14007L8.60713 10.8601C8.48222 10.9843 8.31325 11.0539 8.13713 11.0539C7.961 11.0539 7.79204 10.9843 7.66713 10.8601L3.94046 7.14007C3.84644 7.04683 3.78232 6.92769 3.75628 6.79786C3.73023 6.66803 3.74344 6.53338 3.79422 6.41109C3.84499 6.28879 3.93104 6.18439 4.04139 6.11118C4.15173 6.03798 4.28138 5.9993 4.4138 6.00007Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="acc-group">
+                        <ul>
+                            <li class="acc-item">
+                                <a href="#" class="acc-link btn btn-yellow">
+                                    <span>Đăng nhập</span>
+                                </a>
+                            </li>
+                            <li class="acc-item">
+                                <a href="#" class="acc-link btn">
+                                    <span>Đăng ký</span>
+                                </a>
+                            </li>
+                            <li class="acc-item">
+                                <a href="#" class="acc-link acc-user">
+                                    <img src="assets/images/avatar.jpg" alt="" class="acc-avatar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                        <path d="M4.4138 6.00007L11.8605 6.00007C11.9929 5.9993 12.1225 6.03798 12.2329 6.11118C12.3432 6.18439 12.4293 6.28879 12.48 6.41109C12.5308 6.53338 12.544 6.66803 12.518 6.79786C12.4919 6.92769 12.4278 7.04683 12.3338 7.14007L8.60713 10.8601C8.48222 10.9843 8.31325 11.0539 8.13713 11.0539C7.961 11.0539 7.79204 10.9843 7.66713 10.8601L3.94046 7.14007C3.84644 7.04683 3.78232 6.92769 3.75628 6.79786C3.73023 6.66803 3.74344 6.53338 3.79422 6.41109C3.84499 6.28879 3.93104 6.18439 4.04139 6.11118C4.15173 6.03798 4.28138 5.9993 4.4138 6.00007Z" fill="white"/>
+                                    </svg>
+
+                                </a>
+                                <ul class="acc-dropdow none">
+                                    <div class="user-info">
+                                        <div class="user-avatar-wrapper">
+                                            <div class="user-avatar">
+                                                <img src="assets/images/avatar.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="user-name">
+                                            Alex Truong
+                                        </div>
+                                        <div class="user-mail">
+                                            haidang041286@gmail.com
+                                        </div>
+                                        <div class="btn-group-vertical">
+                                            <button class="btn btn-outline">
+                                                <span>Quản lý xu</span>
+                                            </button>
+                                            <button class="btn btn-blue-outline">
+                                                <span>Edit profile</span>
+                                            </button>
+
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="acc-link-group">
+                                            <a href="#">Lịch sử dự đoán</a>
+                                            <a href="#">Lịch sử dự đoán</a>
+                                            <a href="#">Lịch sử dự đoán</a>
+                                            <a href="#">Lịch sử dự đoán</a>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="acc-logout">
+                                            <a href="#">
+                                                <span>Đăng xuất</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="match-detail">
+        <div class="container">
+
+            <div class="card">
+                <div class="card-head tour">
+                    <div class="cart-title ">
+                        <img src="assets/images/giai.png">
+                        <span>Ngoại Hạng anh</span>
+                    </div>
+                    <div class="calendar">
+                        Chủ nhật 10/12/2023, 18:30 - Vòng 15
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="match-detail-content">
+                        <div class="match live">
+
+                            <div class="match-fore-title">
+                                <div class="fore-title">
+                                    Dự đoán thắng - hoà - thua
+                                </div>
+                                <p class="fore-p">
+                                    Đã có 39 lượt dự đoán
+                                </p>
+                            </div>
+                            <div class="match-content">
+
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+                                    <img src="assets/images/logo-clubs/manu.png" class="img-opacity">
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <div class="fore-win-lost has-choose">
+                                            <span class="win active">Home</span>
+                                            <span class="equal ">Hòa</span>
+                                            <span class="lost ">Way</span>
+                                        </div>
+                                        <button class="btn btn-yellow " disabled>
+                                            <span>Ngừng dự đoán</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+                                    <img src="assets/images/logo-clubs/manc.png" class="img-opacity">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="match-end">
+        <div class="container">
+            <div class="card">
+                <div class="card-head">
+                    <div class="cart-title">
+                        <img src="assets/images/icon/soccer-ball-variant.png">
+                        <span>Lịch sử đối đầu</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="match end">
+
+                            <div class="match-head">
+                                <div class="calendar">
+                                    20:00 05/12
+                                </div>
+                                <div class="tuar-round">
+                                    Ngoại hạng Anh - vòng 15
+                                </div>
+                            </div>
+                            <div class="match-content">
+                                <div class="club club-left">
+                                    <img src="assets/images/logo-clubs/manu.png" alt="">
+                                    <p>Man U</p>
+
+                                </div>
+                                <div class="match-score">
+                                    <div class="match-score-wrapper">
+                                        <p class="before">Hết Trận</p>
+                                        <div class="match-score-group">
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                            <span>-</span>
+                                            <div class="input-group">
+
+                                                <input type="text" value="0" disabled>
+
+                                            </div>
+                                        </div>
+                                        <p class="after">H1: 1-0</p>
+                                    </div>
+                                </div>
+                                <div class="club club-right">
+                                    <img src="assets/images/logo-clubs/manc.png" alt="">
+                                    <p>Man city</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="prize">
+        <div class="container">
+            <div class="card">
+                <div class="card-head">
+                    <div class="cart-title">
+                        <img src="assets/images/icon/prize .png">
+                        <span>Thể lệ & giải thưởng</span>
+                    </div>
+
+                </div>
+                <div class="card-content">
+                    <h4>
+                        [MINIGAME] DỰ ĐOÁN TỶ SỐ NHẬN QUÀ HẾT SỐ
+                    </h4>
+                    <p>
+                        Chào tháng của một ngày lễ giáng sinh thật nhiều điều tuyệt đẹp. Cùng XXX (tên web site hoặc page) hưởng ứng tháng 12 với phần quà siêu bùng nổ lên tới 5.000.000 đồng khi tham gia minigame dự đoán tỷ số các trận cầu C1 sắp diễn ra.
+                        <br> 🎉GIẢI THƯỞNG ĐẶC BIỆT trị giá 5.000.000 đồng sẽ thuộc về người chơi đoán chính xác và nhanh nhất.
+                        <br> 🎁THỂ LỆ THAM GIA MINIGAME:
+                        <br> Bước 1: #Follow fanpage và #Like #Share bài viết minigame ở chế độ công khai
+                        <br> Bước 2: Truy cập vào trang web xxxxx trên google và đăng kí tài khoản dự đoán
+                        <br>👉Chụp ảnh 1 kết quả dự đoán trên web thành công.
+                        <br>👉 Điền thông tin dự đoán vào form để trao thưởng. (Thông tin form cần điền: Họ tên, ngày tháng năm sinh, email, SĐT, ảnh dự đoán thành công, thông tin nhận quà, id tài khoản)
+                        <br>Bước 3: Dự đoán tỷ số trận đấu giữa A vs B ngày xxx + ID tài khoản website và #Tag 3 người bạn (Ví dụ: [123abc] 1-0 @Nguyễn A @Nguyễn B @Nguyễn C ).
+                        <br> 🎁 GIẢI THƯỞNG:
+                        <br>☑️ Giải Nhất:
+                        <br>☑️ Giải Nhì:
+                        <br>☑️ Giải Ba:
+                        <br>☑️ Giải Khuyến Khích:
+                        <br>⏰Thời gian tham gia: Từ xx - xx
+                        <br>⏰Thời gian công bố kết quả: T7 hàng tuần
+                        <br>⚠️ Lưu ý:
+                        <br>- Cmt hợp lệ là cmt không được chỉnh sửa và thực hiện đủ các bước trên.
+                        <br>- Mỗi bạn chỉ được cmt tối đa 1 lần, giải thưởng tính cho cmt chính xác và sớm nhất.
+                        <br>- Cmt sau 23h59 ngày xxx trở đi sẽ không được tính.
+                        <br>- Minigame sẽ khoá trước 23h59 ngày xxx để tránh trường hợp chỉnh sửa và gian lận
+                        <br>👉Cùng nhau tham gia minigame tháng 12 của chúng tôi để có được những phần quà hấp dẫn cỗ vũ hết mình cho các trận cầu hết sức sôi động tuần này. Và đừng quên chia sẻ tới bạn bè, người thân để có thêm cơ hội trúng thưởng nhé!
+                    </p>
+                    <h5>MỌI THÔNG TIN CHI TIẾT XIN LIÊN HỆ</h5>
+                    <p>
+                        📞 Hotline: xxxx
+                        <br>🌐 Website: xxxx (em tính k để)
+                        <br>🤩 TikTok: https://www.tiktok.com/@
+                        <br>#minigame
+                    </p>
+                </div>
+                <div class="confirmed">
+                    <div class="confirm-wrapper">
+                        <div class="left">
+                            <img src="assets/images/icon/gift-text.png" class="left-1">
+                            <img src="assets/images/icon/ai_7.png" class="left-2">
+                        </div>
+                        <div class="center">
+                            <div class="title">Cơ chế xác nhận người thắng giải</div>
+                            <ul>
+                                <li>
+                                    Lọc list bình luận chính xác và nhanh nhất trên fanpage
+                                </li>
+                                <li>
+                                    So sánh, đối chiếu ID và thời gian đăng ký tài khoản trên hệ thống
+                                </li>
+                                <li>
+                                    Liên hệ xác mình và trao thưởng cho top cá nhân dự đoán tỷ số chính xác nhất kèm yêu cầu feedback về chương trình được thực tế và tạo hiệu ứng tốt hơn.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <img src="assets/images/icon/gift-text.png" class="right-1">
+                            <img src="assets/images/icon/gift-box.png" class="right-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer-nav">
+                <div class="footer-menu">
+                    <ul>
+                        <li>
+                            <a href="">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="">Về chúng tôi</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <p>Social channels</p>
+                    <!-- facebook -->
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <g clip-path="url(#clip0_128_6680)">
+                              <path d="M18.3302 0.615234H1.64932C1.07815 0.615578 0.61512 1.07883 0.615234 1.65024V18.3311C0.615578 18.9023 1.07883 19.3653 1.65024 19.3652H10.6311V12.1143H8.1958V9.27612H10.6311V7.18746C10.6311 4.76532 12.1098 3.44696 14.2704 3.44696C15.3053 3.44696 16.1946 3.52409 16.4539 3.55854V6.09009H14.964C13.7884 6.09009 13.5608 6.64867 13.5608 7.46853V9.27612H16.3715L16.0052 12.1143H13.5608V19.3652H18.3302C18.9017 19.3653 19.3651 18.9022 19.3652 18.3307C19.3652 18.3306 19.3652 18.3305 19.3652 18.3302V1.64932C19.365 1.07815 18.9016 0.61512 18.3302 0.615234Z" fill="#E5E6E9"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_128_6680">
+                                <rect width="20" height="20" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <!-- instagram -->
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <g clip-path="url(#clip0_128_6682)">
+                              <path d="M19.9804 5.88006C19.9336 4.81738 19.7617 4.0868 19.5156 3.45374C19.2616 2.78176 18.8709 2.18014 18.359 1.68002C17.8589 1.1721 17.2533 0.777435 16.5891 0.527447C15.9524 0.281274 15.2256 0.109427 14.1629 0.0625732C13.0923 0.0117516 12.7525 0 10.0371 0C7.32171 0 6.98183 0.0117516 5.91518 0.0586052C4.8525 0.105459 4.12192 0.277459 3.48902 0.523479C2.81689 0.777435 2.21527 1.16814 1.71514 1.68002C1.20723 2.18014 0.812713 2.78573 0.562573 3.44992C0.3164 4.0868 0.144553 4.81341 0.097699 5.87609C0.0468773 6.9467 0.0351257 7.28658 0.0351257 10.002C0.0351257 12.7173 0.0468773 13.0572 0.0937309 14.1239C0.140585 15.1865 0.312585 15.9171 0.558757 16.5502C0.812713 17.2221 1.20723 17.8238 1.71514 18.3239C2.21527 18.8318 2.82086 19.2265 3.48505 19.4765C4.12192 19.7226 4.84854 19.8945 5.91137 19.9413C6.97786 19.9883 7.31789 19.9999 10.0333 19.9999C12.7486 19.9999 13.0885 19.9883 14.1552 19.9413C15.2178 19.8945 15.9484 19.7226 16.5813 19.4765C17.9254 18.9568 18.9881 17.8941 19.5078 16.5502C19.7538 15.9133 19.9258 15.1865 19.9726 14.1239C20.0195 13.0572 20.0313 12.7173 20.0313 10.002C20.0313 7.28658 20.0273 6.9467 19.9804 5.88006ZM18.1794 14.0457C18.1364 15.0225 17.9723 15.5499 17.8355 15.9015C17.4995 16.7728 16.808 17.4644 15.9367 17.8004C15.585 17.9372 15.0538 18.1012 14.0808 18.1441C13.0259 18.1911 12.7096 18.2027 10.041 18.2027C7.37253 18.2027 7.05218 18.1911 6.00111 18.1441C5.02435 18.1012 4.49691 17.9372 4.14527 17.8004C3.71169 17.6402 3.31702 17.3862 2.99667 17.0541C2.66458 16.7298 2.41062 16.3391 2.25037 15.9055C2.11363 15.5539 1.94956 15.0225 1.90668 14.0497C1.85967 12.9948 1.84807 12.6783 1.84807 10.0097C1.84807 7.34122 1.85967 7.02087 1.90668 5.96995C1.94956 4.99319 2.11363 4.46575 2.25037 4.11412C2.41062 3.68038 2.66458 3.28586 3.00064 2.96536C3.3248 2.63327 3.7155 2.37931 4.14924 2.21921C4.50087 2.08247 5.03229 1.9184 6.00507 1.87537C7.05997 1.82851 7.3765 1.81676 10.0449 1.81676C12.7174 1.81676 13.0337 1.82851 14.0848 1.87537C15.0616 1.9184 15.589 2.08247 15.9406 2.21921C16.3742 2.37931 16.7689 2.63327 17.0892 2.96536C17.4213 3.28967 17.6753 3.68038 17.8355 4.11412C17.9723 4.46575 18.1364 4.99701 18.1794 5.96995C18.2262 7.02484 18.238 7.34122 18.238 10.0097C18.238 12.6783 18.2262 12.9908 18.1794 14.0457Z" fill="#E5E6E9"/>
+                              <path d="M10.0371 4.86426C7.20068 4.86426 4.89935 7.16543 4.89935 10.002C4.89935 12.8385 7.20068 15.1397 10.0371 15.1397C12.8736 15.1397 15.1748 12.8385 15.1748 10.002C15.1748 7.16543 12.8736 4.86426 10.0371 4.86426ZM10.0371 13.3347C8.19696 13.3347 6.70436 11.8422 6.70436 10.002C6.70436 8.16172 8.19696 6.66927 10.0371 6.66927C11.8773 6.66927 13.3698 8.16172 13.3698 10.002C13.3698 11.8422 11.8773 13.3347 10.0371 13.3347Z" fill="#E5E6E9"/>
+                              <path d="M16.5775 4.66109C16.5775 5.32345 16.0405 5.86052 15.378 5.86052C14.7156 5.86052 14.1785 5.32345 14.1785 4.66109C14.1785 3.99858 14.7156 3.46167 15.378 3.46167C16.0405 3.46167 16.5775 3.99858 16.5775 4.66109Z" fill="#E5E6E9"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_128_6682">
+                                <rect width="20" height="20" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <!-- youtube -->
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                            <path d="M20.8768 5.84484C20.6391 4.96125 19.9425 4.26473 19.059 4.02681C17.445 3.58521 10.989 3.58521 10.989 3.58521C10.989 3.58521 4.53325 3.58521 2.91927 4.01007C2.05281 4.24774 1.33916 4.96138 1.10149 5.84484C0.676758 7.45869 0.676758 10.8056 0.676758 10.8056C0.676758 10.8056 0.676758 14.1694 1.10149 15.7663C1.33942 16.6498 2.03581 17.3463 2.9194 17.5842C4.55024 18.026 10.9893 18.026 10.9893 18.026C10.9893 18.026 17.445 18.026 19.059 17.6011C19.9426 17.3633 20.6391 16.6668 20.877 15.7833C21.3016 14.1694 21.3016 10.8226 21.3016 10.8226C21.3016 10.8226 21.3186 7.45869 20.8768 5.84484ZM8.93356 13.8976V7.7136L14.302 10.8056L8.93356 13.8976Z" fill="#E5E6E9"/>
+                        </svg>
+                    </a>
+                    <!-- tiktok -->
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M18.7625 5.01514C17.6211 5.01514 16.568 4.63701 15.7223 3.99912C14.7524 3.26787 14.0555 2.19521 13.8094 0.958887C13.7485 0.653418 13.7157 0.338184 13.7125 0.0151367H10.452V8.92451L10.4481 13.8046C10.4481 15.1093 9.59847 16.2155 8.42073 16.6046C8.07894 16.7175 7.70979 16.771 7.32542 16.7499C6.83479 16.7229 6.37503 16.5749 5.97542 16.3358C5.12503 15.8272 4.54847 14.9046 4.53284 13.8491C4.50823 12.1995 5.84183 10.8546 7.49026 10.8546C7.81565 10.8546 8.12815 10.9077 8.42073 11.0042V8.56904V7.69365C8.11214 7.64795 7.79808 7.62412 7.4805 7.62412C5.6762 7.62412 3.9887 8.37412 2.78245 9.72529C1.87073 10.7464 1.32386 12.0491 1.23948 13.4151C1.12893 15.2097 1.78558 16.9155 3.05901 18.1741C3.24612 18.3589 3.44261 18.5304 3.64808 18.6886C4.73987 19.5288 6.07464 19.9843 7.4805 19.9843C7.79808 19.9843 8.11214 19.9608 8.42073 19.9151C9.73401 19.7206 10.9457 19.1194 11.902 18.1741C13.077 17.0128 13.7262 15.471 13.7332 13.83L13.7164 6.54248C14.277 6.9749 14.8899 7.33272 15.5477 7.61045C16.5707 8.04209 17.6555 8.26084 18.7719 8.26045V5.89287V5.01436C18.7727 5.01514 18.7633 5.01514 18.7625 5.01514Z" fill="#E5E6E9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="copy-right">
+                Copyright © 2023 Cassthecat.com. All rights reserved.
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
