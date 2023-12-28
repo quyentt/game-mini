@@ -203,22 +203,11 @@
         .match-detail-content .match-content .club p {
             font-size: 18px;
         }
-        .fore-win-lost .equal::before {
-            height: 1px;
-            width: 100%;
-            top: 0;
-        }
-        .fore-win-lost .lost::before {
-            height: 1px;
-            width: 100%;
-            top: 0;
-        }
-        .fore-win-lost span {
-            height: 45px;
-            border-radius: 16px;
+        .match-detail-content .match-score-wrapper {
+            padding-top: 80px;
         }
         .fore-win-lost {
-            width: 105px;
+            /* width: 105px; */
             flex-direction: column;
             border-radius: 16px;
         }
@@ -274,7 +263,7 @@
             padding-bottom: 30px;
             padding-top: 40px;
             position: fixed;
-            bottom: 0;
+            bottom: -100%;
             background: white;
             z-index: 9999;
             width: 100%;
@@ -282,6 +271,10 @@
             border-radius: 16px 16px 0 0;
             border: 1px px solid var(--color-border);
             box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.16);
+            transition: all 0.3s;
+        }
+        .profile-nav.show {
+            bottom: 0;
         }
         .page-back span {
             margin-left: 0;
